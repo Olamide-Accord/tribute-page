@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: whitesmoke;
+}
+#title{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#title h1{
+    font-size: 4rem;
+    padding: 10px;
+    font-weight: 500;
+}
+#title p{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#img-div{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+#img-div p{
+    padding: 8px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+#tribute-info{
+    width: 70%;
+    margin: 0 auto;
+    color: darkslategrey;
+    font-size: 1.25rem;
+}
+#tribute-info h3{
+    font-size: 1.5rem;
+}
+#tribute-info span{
+    font-weight: bolder;
+    font-size: 23px;
+    padding-right: 8px;
+}
+#tribute-info li{
+    padding: 6px 12px;
+}
+#tribute-info p{
+    padding: 20px 0px;
+}
+#footer{
+    width: 80%;
+    margin: 0 auto;
+}
+#footer p{
+    text-align: center;
+    padding: 5px 0px 15px;
+    font-size: 1.25rem;
+}
+#footer a{
+    color: darkslategrey;
+}
+.icons{
+    width: 70%;
+    margin: 0 auto;
+}
+.github, .twitter{
+    width: 70px;
+    border: 0px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.github:hover, .twitter:hover{
+    width: 75px;
+}
+
+@media (max-width: 700px) {
+    #title h1{
+        font-size: 2.5rem;
+    }
+    #title p{
+        font-size: 1.25rem;
+    }
+    #img-div img{
+        width: 100%;
+    }
+    #img-div p{
+        font-size: 1rem;
+    }
+}
