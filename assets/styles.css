@@ -62,6 +62,10 @@ body{
 #footer a{
     color: darkslategrey;
 }
+#footer a:hover{
+    color: darkolivegreen;
+    font-size: 21px;
+}
 .icons{
     width: 15%;
     margin: 0 auto;
